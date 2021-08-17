@@ -1,16 +1,18 @@
-﻿# BinarySerializationBenchDemo
+﻿[![.NET](https://github.com/aimenux/BinarySerializationBenchDemo/actions/workflows/ci.yml/badge.svg)](https://github.com/aimenux/BinarySerializationBenchDemo/actions/workflows/ci.yml)
+
+# BinarySerializationBenchDemo
 ```
 Benchmarking various ways of binary serialization / deserialization
 ```
 
-In this demo, i m using [BenchmarkDotNet](https://github.com/dotnet/BenchmarkDotNet) library in order to benchmark binary serialization / deserialization :
+In this demo, i m using [BenchmarkDotNet](https://github.com/dotnet/BenchmarkDotNet) library in order to benchmark binary serialization / deserialization base on :
 >
-> :one: Using [BinaryFormatter](https://docs.microsoft.com/en-us/dotnet/api/system.runtime.serialization.formatters.binary.binaryformatter)
+> :one: Built-In Library [BinaryFormatter](https://docs.microsoft.com/en-us/dotnet/api/system.runtime.serialization.formatters.binary.binaryformatter)
 >
-> :two: Using [BinarySerializer](https://github.com/jefffhaynes/BinarySerializer)
+> :two: Third-Party Library [BinarySerializer](https://github.com/jefffhaynes/BinarySerializer)
 >
 
-In order to run benchmarks, type these commands in your favorite terminal :
+In order to run benchmarks, type this command in your favorite terminal :
 >
 > :writing_hand: `.\App.exe`
 >
