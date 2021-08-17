@@ -4,5 +4,6 @@
     {
         BinaryFormatter,
         BinarySerializer,
+        GroBuf
     }
 }

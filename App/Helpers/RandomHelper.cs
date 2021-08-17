@@ -2,6 +2,7 @@
 using System.Linq;
 using EmployeeOne = LibOne.Models.Employee;
 using EmployeeTwo = LibTwo.Models.Employee;
+using EmployeeThree = LibThree.Models.Employee;
 
 namespace App.Helpers
 {
@@ -24,7 +25,7 @@ namespace App.Helpers
             };
         }
 
-        public static LibTwo.Models.Employee RandomEmployeeTwo(int length)
+        public static EmployeeTwo RandomEmployeeTwo(int length)
         {
             return new()
             {
@@ -32,6 +33,21 @@ namespace App.Helpers
                 LastName = RandomString(length),
                 Title = RandomString(length),
                 Address = new LibTwo.Models.Address
+                {
+                    City = RandomString(length),
+                    Country = RandomString(length)
+                }
+            };
+        }
+
+        public static EmployeeThree RandomEmployeeThree(int length)
+        {
+            return new()
+            {
+                FirstName = RandomString(length),
+                LastName = RandomString(length),
+                Title = RandomString(length),
+                Address = new LibThree.Models.Address
                 {
                     City = RandomString(length),
                     Country = RandomString(length)

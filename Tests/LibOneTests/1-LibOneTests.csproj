@@ -21,7 +21,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\LibOne\LibOne.csproj" />
+    <ProjectReference Include="..\..\Libs\LibOne\1-LibOne.csproj" />
   </ItemGroup>
 
 </Project>
