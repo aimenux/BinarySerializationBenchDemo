@@ -5,7 +5,7 @@
 Benchmarking various ways of binary serialization / deserialization
 ```
 
-In this demo, i m using [BenchmarkDotNet](https://github.com/dotnet/BenchmarkDotNet) library in order to benchmark binary serialization / deserialization base on :
+In this demo, i m using [BenchmarkDotNet](https://github.com/dotnet/BenchmarkDotNet) library in order to benchmark binary serialization / deserialization based on :
 >
 > :one: Built-In Library [BinaryFormatter](https://docs.microsoft.com/en-us/dotnet/api/system.runtime.serialization.formatters.binary.binaryformatter)
 >
