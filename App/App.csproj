@@ -10,9 +10,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Libs\LibOne\1-LibOne.csproj" />
-    <ProjectReference Include="..\Libs\LibThree\3-LibThree.csproj" />
-    <ProjectReference Include="..\Libs\LibTwo\2-LibTwo.csproj" />
+    <ProjectReference Include="..\Libs\1-LibOne\1-LibOne.csproj" />
+    <ProjectReference Include="..\Libs\2-LibTwo\2-LibTwo.csproj" />
+    <ProjectReference Include="..\Libs\3-LibThree\3-LibThree.csproj" />
+    <ProjectReference Include="..\Libs\4-LibFour\4-LibFour.csproj" />
   </ItemGroup>
 
 </Project>

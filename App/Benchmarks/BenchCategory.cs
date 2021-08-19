@@ -4,6 +4,7 @@
     {
         BinaryFormatter,
         BinarySerializer,
-        GroBuf
+        GroBuf,
+        ProtoBuf
     }
 }

@@ -3,6 +3,7 @@ using System.Linq;
 using EmployeeOne = LibOne.Models.Employee;
 using EmployeeTwo = LibTwo.Models.Employee;
 using EmployeeThree = LibThree.Models.Employee;
+using EmployeeFour = LibFour.Models.Employee;
 
 namespace App.Helpers
 {
@@ -48,6 +49,21 @@ namespace App.Helpers
                 LastName = RandomString(length),
                 Title = RandomString(length),
                 Address = new LibThree.Models.Address
+                {
+                    City = RandomString(length),
+                    Country = RandomString(length)
+                }
+            };
+        }
+
+        public static EmployeeFour RandomEmployeeFour(int length)
+        {
+            return new()
+            {
+                FirstName = RandomString(length),
+                LastName = RandomString(length),
+                Title = RandomString(length),
+                Address = new LibFour.Models.Address
                 {
                     City = RandomString(length),
                     Country = RandomString(length)
